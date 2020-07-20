@@ -7,10 +7,15 @@ public class Course {
     private int numberOfClasses;
     private String codeName;
     
-    public Course (String name, int numberOfClasses, String codeName);
+    public Course (String name, int numberOfClasses, String codeName){
             this.name = name;
+            this.numberOfClasses = numberOfClasses;
+            this.codeName = codeName;
             
-
+    } 
+    
+    public Course () {}
+    
     public String getName() {
         return name;
     }

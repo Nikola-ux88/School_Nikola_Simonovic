@@ -41,9 +41,9 @@ public class Student {
     }
     
     public void info (){
-        System.out.println ("Ime Petar" + this.firstName);
+        System.out.println("Ime Petar" + this.firstName);
         System.out.println("Prezime Petrovic" + this.lastName);
-        System.out.println("Godina rodjenja 01.01.1900." +this.yearOfBirth);
+        System.out.println("Godina rodjenja 01.01.1900." + this.yearOfBirth);
     }
     
     
